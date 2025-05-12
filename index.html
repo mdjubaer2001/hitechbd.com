@@ -2,24 +2,71 @@
 <html lang="bn">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Hi-Tech Computer & Electronics</title>
   <style>
-    body { font-family: Arial; background: #f5f5f5; margin: 0; padding: 20px; }
-    header { background: #2c3e50; color: white; padding: 20px; border-radius: 10px; }
-    h1 { margin: 0; }
-    .section { background: white; padding: 15px; margin: 15px 0; border-radius: 10px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
-    .footer { text-align: center; margin-top: 30px; font-size: 14px; color: #888; }
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f2f2f2;
+    }
+    header {
+      background-color: #0d47a1;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      background-color: #1565c0;
+      display: flex;
+      justify-content: center;
+      gap: 15px;
+      padding: 10px 0;
+      flex-wrap: wrap;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    .section {
+      padding: 20px;
+      background-color: white;
+      margin: 15px;
+      border-radius: 10px;
+      box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    }
+    ul {
+      padding-left: 20px;
+    }
+    .footer {
+      text-align: center;
+      padding: 10px;
+      background-color: #0d47a1;
+      color: white;
+      margin-top: 20px;
+    }
   </style>
 </head>
 <body>
+
   <header>
     <h1>Hi-Tech Computer & Electronics</h1>
     <p>সাঁথিয়া বাজার, পাবনা ৬৬৭০</p>
   </header>
 
-  <div class="section">
-    <h2>পণ্যসমূহ</h2>
+  <nav>
+    <a href="#products">পণ্য</a>
+    <a href="#services">সেবা</a>
+    <a href="#contact">যোগাযোগ</a>
+  </nav>
+
+  <div class="section" id="products">
+    <h2>আমাদের পণ্যসমূহ</h2>
     <ul>
       <li>সিসি ক্যামেরা</li>
       <li>রাউটার</li>
@@ -33,22 +80,23 @@
     </ul>
   </div>
 
-  <div class="section">
-    <h2>সেবা</h2>
+  <div class="section" id="services">
+    <h2>আমাদের সেবা</h2>
     <ul>
       <li>সিসি ক্যামেরা ইনস্টলেশন</li>
       <li>পিসি বিল্ড</li>
     </ul>
   </div>
 
-  <div class="section">
+  <div class="section" id="contact">
     <h2>যোগাযোগ</h2>
-    <p>মোবাইল: 01742233661</p>
-    <p>ইমেইল: mdjubaerrabbi@gmail.com</p>
+    <p><strong>মোবাইল:</strong> 01742233661</p>
+    <p><strong>ইমেইল:</strong> mdjubaerrabbi@gmail.com</p>
   </div>
 
   <div class="footer">
-    &copy; 2025 Hi-Tech Computer & Electronics. সর্বস্বত্ব সংরক্ষিত।
+    &copy; 2025 Hi-Tech BD | ডিজাইন করেছে তোমার বৈশাখী
   </div>
+
 </body>
 </html>
